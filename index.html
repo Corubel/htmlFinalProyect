@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Diary</title>
+
+    <style>
+        #topbar{
+            background-color: aqua;
+            padding: 26px;
+            text-align: center;
+        }
+        .tolbar-item{
+            
+            font-size: 24px;
+            padding: 8px;
+            font-weight: 600;
+        }
+        #topimg{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 40px;
+        }
+        .title{
+            text-align: center;
+        }
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .img-place{
+            width: 300px;
+            height: 300px;
+            object-fit: fill;
+        }
+        .legend{
+            background-color: azure;
+            padding: 20px;
+            margin-top: -10px;
+        }
+        .img-wrapped{
+            text-align: center;
+            padding:   10px;
+            
+        }
+        
+    </style>
+
+</head>
+<body  style="margin: 0; background-color: aquamarine;"  >
+
+                 <!--    Tolbar-->
+        <nav id="topbar">
+            <span class="tolbar-item"> <a href=""> Places</a></span>
+            <span class="tolbar-item"><a href="">  About</a></span>
+            <span class="tolbar-item"> <a href="">Contact</a> </span>
+        </nav>
+
+
+        <!--     Big Picture Here  -->
+        <section id="topimg">
+            <img src="img/HISTORIA-RIO-CHUBUT-47-HEAD.jpg" alt="topimg">
+        </section>    
+            
+        <h3 class="title">My Travel Diary</h3>
+
+             <!--Gallery start-->
+
+    <div class="gallery">
+
+                <!--     Picture 1  -->
+        <div class="img-wrapped">
+            <a   href="placepage1.html">
+                <img  class="img-place" src="img/saltodelangel.jpeg" alt=" Salto Ángel"/>
+            </a>        
+            <p class="legend">Salto Ángel, Venezuela.</p>       
+        </div>
+        
+               <!--     Picture 2 -->
+        <div class="img-wrapped">
+            <a href="placepage2.html"> 
+                <img class="img-place" src="img/desiertodeatacama.jpeg" alt=" Atacama"/>
+            </a>
+                <p class="legend">Desierto de Atacama</p>
+            
+        </div>
+    
+            <!--     Picture 3  -->
+        <div class="img-wrapped">
+            <a href="placepage3.html"> 
+                <img class="img-place" src="img/arashiyama.jpeg" alt=" Arashiyama"/>
+            </a>            
+            <p class="legend">Bosque de bambú de Arashiyama, Japón</p>
+            
+        </div>
+    
+               <!--     Picture 4 -->
+        <div class="img-wrapped">
+            <a href="placepage4.html">
+                <img class="img-place" src="img/baobas.jpeg" alt="Baobabs "/>
+            </a>                
+                <p class="legend"> Avenida de los Baobabs, Madagascar</p>
+                
+        </div>
+    
+            <!--     Picture 5  -->
+        <div class="img-wrapped">
+            <a href="placepage5.html"> 
+                <img class="img-place" src="img/islasgalapagos.jpeg" alt="IslasGalápagos "/>
+            </a>            
+            <p class="legend">Islas Galápagos, Ecuador</p>
+        
+        </div>
+    
+               <!--     Picture 6  -->
+        <div class="img-wrapped">
+            <a href="placepage6.html">
+                <img class="img-place" src="img/bahiadehalong.jpeg" alt="Ha Long "/>
+            </a>            
+            <p class="legend"> Bahía de Halong, Vietnam</p>
+            
+        </div>
+    
+
+    </div>     
+     
+            
+    
+</body>
+</html>
